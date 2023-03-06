@@ -1,0 +1,13 @@
+Actor: bharath-rajiv
+Action ID: 4191873549
+Artifact URL: https://pipelines.actions.githubusercontent.com/H7uras6KdqnndGJtUe5DS16d2HutS0W5xrlJuiDtvHwukWopib/_apis/pipelines/workflows/4191873549/artifacts?api-version=6.0-preview
+{"count":1,"value":[{"containerId":193002,"size":655360,"signedContent":null,"fileContainerResourceUrl":"https://pipelines.actions.githubusercontent.com/H7uras6KdqnndGJtUe5DS16d2HutS0W5xrlJuiDtvHwukWopib/_apis/resources/Containers/193002","type":"actions_storage","name":"github-pages","url":"https://pipelines.actions.githubusercontent.com/H7uras6KdqnndGJtUe5DS16d2HutS0W5xrlJuiDtvHwukWopib/_apis/pipelines/1/runs/2/artifacts?artifactName=github-pages","expiresOn":"2023-02-17T08:00:34.2023687Z","items":null}]}
+Creating deployment with payload:
+{
+	"artifact_url": "https://pipelines.actions.githubusercontent.com/H7uras6KdqnndGJtUe5DS16d2HutS0W5xrlJuiDtvHwukWopib/_apis/pipelines/1/runs/2/artifacts?artifactName=github-pages&%24expand=SignedContent",
+	"pages_build_version": "4554dfb667b5e5aaee1d3ae8fe7c91e536ebd5df",
+	"oidc_token": "***"
+}
+Created deployment for 4554dfb667b5e5aaee1d3ae8fe7c91e536ebd5df
+{"page_url":"https://bharath-rajiv.github.io/morse/","status_url":"https://api.github.com/repos/bharath-rajiv/morse/pages/deployment/status/4554dfb667b5e5aaee1d3ae8fe7c91e536ebd5df","preview_url":""}
+Reported success!

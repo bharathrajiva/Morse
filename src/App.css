@@ -1,0 +1,237 @@
+html{
+	overflow: hidden;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Telex&display=swap');
+
+.content {
+	display: inline-flex;
+	flex-flow: column;
+	width: 100%;
+	max-width: 800px;
+	text-align: left;
+	/* background-color: white; */
+	overflow: none;
+}
+h2{
+	font-family: 'Telex', sans-serif;
+}
+/* .App{
+  top: 60px; 
+  position:absolute;
+  background:url('components/background-seemore.gif') repeat;
+  min-height: 100%;
+  min-width: 100%;
+  z-index: -1;
+  background-color: black;
+} */
+
+body {
+	background: #000000;
+	color: #37dc69;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+h1 {
+  	text-align: center;
+	  font-family: 'Telex', sans-serif;
+}
+
+
+textarea {
+	font-size: 16px;
+	padding: 15px;
+	color: #afb2b0;
+	background: #343536;
+	border: none;
+	height: 150px;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 20px;
+	outline-color: grey;
+	overflow-y: scroll;
+	-ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  
+}
+textarea::-webkit-scrollbar {
+  display: none;
+}
+
+
+.output p {
+  	font-family: monospace;
+}
+.output button{
+	background-color: #4CAF50; 
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+
+} 
+.output button {
+	margin-top: 3rem;
+	height: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+
+  .button {
+	min-width: 300px;
+	min-height: 60px;
+	font-family: 'Telex', sans-serif;
+	font-size: 22px;
+	text-transform: uppercase;
+	letter-spacing: 1.3px;
+	font-weight: 700;
+	color: #313133;
+	background: #37dc69;
+  background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+	border: none;
+	border-radius: 1000px;
+	box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+	transition: all 0.3s ease-in-out 0s;
+	cursor: pointer;
+	outline: none;
+	position: relative;
+	padding: 10px;
+	}
+  
+  button::before {
+  content: '';
+	border-radius: 1000px;
+	min-width: calc(300px + 12px);
+	min-height: calc(60px + 12px);
+	border: 6px solid #00FFCB;
+	box-shadow: 0 0 60px rgba(0,255,203,.64);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	transition: all .3s ease-in-out 0s;
+  }
+  
+  .button:hover, .button:focus {
+	color: #313133;
+	transform: translateY(-6px);
+  }
+  
+  button:hover::before, button:focus::before {
+	opacity: 1;
+  }
+  
+  button::after {
+	content: '';
+	width: 30px; height: 30px;
+	border-radius: 100%;
+	border: 6px solid #00FFCB;
+	position: absolute;
+	z-index: -1;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	animation: ring 1.5s infinite;
+  }
+  
+  button:hover::after, button:focus::after {
+	animation: none;
+	display: none;
+  }
+  
+  @keyframes ring {
+	0% {
+	  width: 100px;
+	  height: 100px;
+	  opacity: 1;
+	}
+	100% {
+	  width: 250px;
+	  height: 250px;
+	  opacity: 0;
+	}
+  }
+  @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+figure {
+  width: 200px;
+  height: 60px;
+  cursor: pointer;
+  perspective: 500px;
+  -webkit-perspective: 500px;
+}
+figure div {
+  height: 100%;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transition: 0.25s;
+  -webkit-transition: 0.25s;
+}
+figure:hover div {
+  transform: rotateX(-90deg);
+}
+span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  border: 5px solid #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 50px;
+  font-size: 17pt;
+  text-align: center;
+  text-transform: uppercase;
+}
+span:nth-child(1) {
+  color: #37dc69;
+  transform: translate3d(0, 0, 30px);
+  -webkit-transform: translate3d(0, 0, 30px);
+}
+span:nth-child(2) {
+  color: rgb(0, 0, 0);
+  background: #fff;
+  transform: rotateX(90deg) translate3d(0, 0, 30px);
+  -webkit-transform: rotateX(90deg) translate3d(0, 0, 30px);
+}
+
+
+footer {
+	position: fixed;
+	bottom: 0;
+	padding-bottom: 15px;
+	padding-left: 250px;
+	font-size: 15pt;
+}
+@media screen and (max-width: 770px)
+{
+	footer {
+		padding-left: 200px;
+		font-size: 15pt;
+	}
+}
+@media screen and (max-width: 430px)
+{
+	footer {
+		padding-left: 75px;
+		font-size: 12pt;
+	}
+}
+@media screen and (max-width: 380px)
+{
+	footer {
+		padding-left: 50px;
+		font-size: 12pt;
+	}
+}
+@media screen and (max-width: 325px)
+{
+	footer {
+		padding-left: 25px;
+		font-size: 12pt;
+	}
+}

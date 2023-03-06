@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/morse/static/css/main.c38e4892.css",
+    "main.js": "/morse/static/js/main.10270870.js",
+    "static/media/long.wav": "/morse/static/media/long.be8aa169c382e8707952.wav",
+    "static/media/short.wav": "/morse/static/media/short.e0d91938f14fac2c4c60.wav",
+    "index.html": "/morse/index.html",
+    "main.c38e4892.css.map": "/morse/static/css/main.c38e4892.css.map",
+    "main.10270870.js.map": "/morse/static/js/main.10270870.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c38e4892.css",
+    "static/js/main.10270870.js"
+  ]
+}
